@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Expletus+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3498db;
+  color: #ffffff;
+  font-family: "Expletus Sans", sans-serif;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+main {
+  min-height: 40vh;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  position: relative;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.error {
+  color: red;
+}
+
+.success{
+  color: greenyellow;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid;
+}
+
+a {
+  color: white;
+}
+
+nav > ul,
+nav > ol {
+  list-style: none;
+  margin: 0 1.5rem;
+  gap: 1rem;
+  display: flex;
+  margin: 1rem;
+}
+
+ul {
+  margin: 0 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul:first-child > li {
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+}
+
+form div {
+  margin: 0.5rem 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0.75rem 0;
+}
+
+.link {
+  border: 2px solid red;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+}
+
+.image {
+  max-height: 10rem;
+}
+
+table {
+  width: 30rem;
+}
+td, th {
+  border: 1px solid;
+
+}
